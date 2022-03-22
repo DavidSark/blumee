@@ -6,4 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /*Reset CSS*/
-@import url(layout/reset.css);
+@import url('layout/reset.css');
+
+/*Utils -> variables | ajout des polices et des couleurs Figma*/
+@import url('utils/variables.css');
