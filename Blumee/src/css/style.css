@@ -1,0 +1,9 @@
+/*Import de la feuille de style de la page 404*/
+@import url("layout/404.css");
+
+/*Police à refaire*/
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*Reset CSS*/
+@import url(layout/reset.css);
