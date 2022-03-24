@@ -3,17 +3,18 @@
   box-sizing: content-box;
 }
 
+
 /*Couleur de fond dégradé du body*/
-body:before {
+/*body:before {
 	content:"";
-	position:fixed;
+	position: absolute;
 	left:0;
 	top:0;
 	right:0;
 	bottom:0;
 	z-index:-1; 
 	background: linear-gradient(90deg, var(--peach), 75%, var(--soft-beige)) ;
-}
+}*/
 
 
 /*Reset des éléments de surlignage des liens */

@@ -4,6 +4,8 @@
 /*Police à refaire*/
 @import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 /*Reset CSS*/
 @import url('layout/reset.css');
@@ -16,3 +18,9 @@
 
 /*Import de la feuille de style pour l'en tête*/
 @import url('layout/header.css');
+
+/*Import de la feuille de style pour le corps*/
+@import url('layout/body.css');
+
+/*Import de la feuille de style pour le pied de page*/
+@import url('layout/footer.css');
