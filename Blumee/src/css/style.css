@@ -10,3 +10,9 @@
 
 /*Utils -> variables | ajout des polices et des couleurs Figma*/
 @import url('utils/variables.css');
+
+/*Import du main.css*/
+@import url('base/main.css');
+
+/*Import de la feuille de style pour l'en tête*/
+@import url('layout/header.css');

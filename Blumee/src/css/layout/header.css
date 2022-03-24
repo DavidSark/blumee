@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    border: 2px solid red;
+    
+}
+
+.logo_blumee{
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    width: 50px;
+    border: 2px solid green;
+}
+
+.menu_list{
+    display: flex;
+    border: 2px solid purple;
+}
+
+.link_contact, .link_about, .link_signin{
+    background-color: red;
+    margin: 0.5rem;
+}
