@@ -1,4 +1,4 @@
-.section__00__signin{
+.section__00__signup{
     padding-top: 80px;
     padding-bottom: 80px;
     background: linear-gradient(90deg, var(--peach), 75%, var(--soft-beige)) ;
@@ -7,38 +7,38 @@
     justify-items: center;
 }
 
-.under__section__00__signin{
+.under__section__00__signup{
     padding-bottom: 72px;
 }
 
-.bloc__home__signin{
+.bloc__home__signup{
     margin-top: 4.5%;
     margin-left: 10%;
     color: var(--white);
 }
 
-.bloc__home__signin{
+.bloc__home__signup{
     margin-top: 4.5%;
     margin-left: 10%;
     color: var(--white);
 }
 
-.title__blumee__signin{
+.title__blumee__signup{
     font-family: var(--Quicksand);
     font-size: 7.37rem;
 }
 
-.tagline__signin{
+.tagline__signup{
     font-family: var(--Quicksand);
     font-size: 2.63rem;
     width: 460px;
 }
 
-.section__signin__right{
+.section__signup__right{
     padding-top: 50px;
 }
 
-.input__signin{
+.input__signup{
     width: 50%;
     display: block;
     padding: 12px;
@@ -64,7 +64,7 @@
 }
 
 
-.btn__signin{
+.btn__signup{
     font-family: var(--Raleway);
     font-size: 16px;
     margin-top: 30px;
@@ -79,13 +79,13 @@
     cursor: pointer;
 }
 
-.btn__signin:hover{
+.btn__signup:hover{
     background-color: var(--soft-beige);
     color: var(--peach);
 }
 
 @media screen and (min-width: 1367px){
-    .section__00__signin{
+    .section__00__signup{
     padding-top: 130px;;
     }
 }

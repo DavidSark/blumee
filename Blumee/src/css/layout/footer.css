@@ -5,6 +5,10 @@ footer{
     background-color: black;
 }
 
+.footer__sign{
+    margin-top: 0;
+}
+
 .center__footer{
     text-align: center;
 }
