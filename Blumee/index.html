@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
+    
     <title>Blumee - Accueil</title>
 </head>
 
@@ -14,12 +15,12 @@
     <!--Code du menu-->
 
     <header class="header">
-        <img class="logo__blumee" src="assets/icons/logo_transparent.svg" alt="logo Blumee">
+        <a class="logo__blumee" href="index.html"><img class="logo__blumee" src="assets/icons/logo_transparent.svg" alt="logo Blumee"></a>
 
         <nav>
             <ul class="nav__links">
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
                 <li>
                     <a href="#">À propos</a>
@@ -29,7 +30,7 @@
                 </li>
             </ul>
         </nav>
-        <a class="link__signup" href="#"><button class="signin__button">Inscription</button></a>
+        <a class="link__signup signin__button" href="signup.html">Inscription</a>
     </header>
 
     <div class="section__00">
@@ -38,8 +39,7 @@
                 <h1 class="title__blumee">Blumee.</h1>
                 <h2 class="tagline"> believe in being better !</h2>
             </div>
-
-            <button class="signup__button">Se connecter</button>
+             <a href="#"><button class="signup__button">Se connecter</button></a>
         </div>
     </div>
 
@@ -79,7 +79,7 @@
                     </div>
 
                     <div class="bloc__icon__00">
-                        <img width="50px" src="assets/icons/phone_icon.svg">
+                        <img class="resize__icon" src="assets/icons/phone_icon.svg" alt="Icone téléphone">
                     </div>
                 </div>
 
@@ -93,7 +93,7 @@
                     </div>
 
                     <div class="bloc__icon__00bis">
-                        <img class="icon__01" width="50px" src="assets/icons/stars.svg">
+                        <img class="resize__icon" src="assets/icons/stars.svg" alt="Icone étoiles">
                     </div>
 
                 </div>
@@ -108,7 +108,7 @@
                     </div>
 
                     <div class="bloc__icon__00">
-                        <img class="icon__00" width="50px" src="assets/icons/tchat.svg">
+                        <img class="resize__icon" src="assets/icons/tchat.svg" alt="Icone messagerie">
                     </div>
 
                 </div>
@@ -123,14 +123,14 @@
                     </div>
 
                     <div class="bloc__icon__00bis">
-                        <img class="icon__01" width="50px" src="assets/icons/delivery_box.svg">
+                        <img class="resize__icon" src="assets/icons/delivery_box.svg" alt="Icone box">
                     </div>
 
                 </div>
             </div>
 
             <div>
-                <img class="mockup" src="assets/icons/mockup.svg">
+                <img class="mockup" src="assets/icons/mockup.svg" alt="Mockup téléphone">
             </div>
         </div>
     </div>
@@ -147,7 +147,7 @@
 
                         <div class="column__card__check">
                             <div class="card__check">
-                                <img class="icon__check" src="assets/icons/check.svg">
+                                <img class="icon__check" src="assets/icons/check.svg" alt="Icone coche ">
                                 <div class="align__text__premium">
                                     <p class="text__premium">Lorem <span class="bold">ipsum dolor</span> sit amet
                                         maxime.
@@ -156,7 +156,7 @@
 
                             </div>
                             <div class="card__check">
-                                <img class="icon__check" src="assets/icons/check.svg">
+                                <img class="icon__check" src="assets/icons/check.svg" alt="Icone coche">
 
                                 <div class="align__text__premium">
                                     <p class="text__premium">Lorem <span class="bold">ipsum dolor</span> sit amet
@@ -166,7 +166,7 @@
 
                             </div>
                             <div class="card__check">
-                                <img class="icon__check" src="assets/icons/check.svg">
+                                <img class="icon__check" src="assets/icons/check.svg" alt="Icone coche">
                                 <div class="align__text__premium">
                                     <p class="text__premium">Lorem <span class="bold">ipsum dolor</span> sit amet
                                         maxime.
@@ -175,7 +175,7 @@
 
                             </div>
                             <div class="card__check">
-                                <img class="icon__check" src="assets/icons/check.svg">
+                                <img class="icon__check" src="assets/icons/check.svg" alt="Icone coche">
                                 <div class="align__text__premium">
                                     <p class="text__premium">Lorem <span class="bold">ipsum dolor</span> sit amet
                                         maxime.
@@ -183,7 +183,7 @@
                                 </div>
                             </div>
                             <div class="btn__card">
-                                <button class="btn__tentez">Tentez!</button>
+                                <a href="#" class="btn__tentez">Tentez!</a>
                             </div>
                         </div>
                     </div>
@@ -200,23 +200,20 @@
     </div>
 
     <div class="logo__center">
-        <img src="assets/icons/logo_black.svg">
+        <img id="contact" src="assets/icons/logo_black.svg" alt="Logo Blumee">
     </div>
 
     <div class="align__form">
         <div class="card__form">
             <div class="container">
-                <h2 class="title__contact">Contactez-nous !</h2>
+                <h2  class="title__contact">Contactez-nous !</h2>
                 <form action="/action_page.php">
 
-                    <label for="emailAddress">Email</label>
-                    <input id="emailAddress" type="email" name="email" placeholder="E-mail*">
-
-
-                    <label for="subject">Message..</label>
-                    <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+                    <input class="input__00" id="emailAddress" type="email" name="email" placeholder="E-mail*">
+                    
+                    <textarea class="input__00" id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
                     <div class="btn__send__center">
-                        <input class="btn__send__img" type="image" src="assets/icons/button_send.svg" name="clicImage">
+                        <input class="btn__send__img" type="image" src="assets/icons/button_send.svg" name="clicImage" alt="Bouton envoyer">
                     </div>
                 </form>
             </div>
@@ -225,7 +222,7 @@
 
     <footer class="footer">
         <div class="center__footer">
-            <img class="logo__footer" src="assets/icons/logo_transparent.svg">
+            <img class="logo__footer" src="assets/icons/logo_transparent.svg" alt="Logo Blumee">
             <h2 class="title__footer">Blumee.</h2>
             <p class="text__footer">believe in being better !</p>
             <div class="bloc__sep__line">
@@ -233,9 +230,9 @@
             </div>
 
             <div class="footer__img">
-                <img class="footer__tiktok" src="assets/icons/tiktok.svg">
-                <img class="footer__facebook" src="assets/icons/facebook.svg">
-                <img class="footer__instagram" src="assets/icons/instagram.svg">
+                <a href="https://www.tiktok.com/fr/" target="_blank"><img class="footer__tiktok" src="assets/icons/tiktok.svg" alt="Icone Tiktok"></a>
+                <a href="https://www.facebook.com/" target="_blanc"><img class="footer__facebook" src="assets/icons/facebook.svg" alt="Icone Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blanc"><img class="footer__instagram" src="assets/icons/instagram.svg" alt="Icone Instagram"></a>
             </div>
 
             <p class="legal"> © Blumee. All <span class="legal__bold"> rights reserved - C.G.U</span></p>
