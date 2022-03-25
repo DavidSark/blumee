@@ -24,3 +24,6 @@
 
 /*Import de la feuille de style pour le pied de page*/
 @import url('layout/footer.css');
+
+/*Import de la feuille de style pour la page inscription*/
+@import url('layout/signinbody.css');
