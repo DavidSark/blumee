@@ -27,3 +27,6 @@
 
 /*Import de la feuille de style pour la page inscription*/
 @import url('layout/signupbody.css');
+
+/*Import de la feuille de style pour la page connexion*/
+@import url('layout/signinbody.css');

@@ -1,0 +1,104 @@
+.align__signin{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.section__00__signin{
+    padding-top: 80px;
+    padding-bottom: 260px;
+    background: linear-gradient(90deg, var(--baby-blue), 50%, var(--soft-beige)) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.bloc__home__signin{
+    color: var(--white);
+}
+
+.title__blumee__signin{
+    font-family: var(--Quicksand);
+    font-size: 7.37rem;
+}
+
+.tagline__signin{
+    font-family: var(--Quicksand);
+    font-size: 2.63rem;
+    width: 460px;
+}
+
+.signin__btn{
+    font-family: var(--Raleway);
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: var(--white);
+    padding: 9px 25px;
+    background-color: var(--baby-blue);
+    opacity: 1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.signin__btn:hover{
+    background-color: var(--white);
+    color: var(--baby-blue);
+    font-weight: 600;
+}
+
+.input__signin{
+    width: 100%;
+    display: block;
+    padding: 12px;
+    font-family: var(--Raleway);
+    border: 1px solid #ccc;
+    background-color: #F3F3F3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+/*@media screen and (max-width:920px) {
+    .section__00__signin{
+        display: grid;
+        grid-template-columns: 100%;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    
+    .title__blumee__signin{
+        font-family: var(--Quicksand);
+        font-size: 3.37rem;
+    }
+    
+    .tagline__signin{
+        font-family: var(--Quicksand);
+        font-size: 1.63rem;
+    }
+    
+    .bloc__home__signin{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav__links li{
+        display: inline-block;
+        padding: 5px 38px;
+    }
+}*/
+
