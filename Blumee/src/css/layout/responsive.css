@@ -1,0 +1,476 @@
+/*Responsive de l'accueil si la taille d'écran du navigateur > 1440px + quelques  éléments de la page*/
+
+@media screen and (min-width: 1440px) {
+    .section__00__signup{
+        padding-bottom: 400px;
+    }
+
+    .section__00__signin{
+        padding-bottom: 500px;
+    }
+    .under__section__00{
+        padding-bottom: 420px;
+    }
+    .link__signup{
+        font-size: 25px;
+    }
+
+    li a{
+        font-size: 25px;
+    }
+
+    .logo__blumee{
+        width: 100px;
+    }
+
+    .title__blumee{
+        font-size: 140px;
+    }
+
+    .link__signin{
+        font-size: 25px;
+    }
+
+    /*Fonctionnalités*/
+    .title__feature{
+        font-size: 27px;
+    }
+
+    .grid__text__left p, .grid__text__right p{
+        font-size:  20px;
+    }
+
+    /*BTN PREMIUM MON GAAAAAARS*/
+    .btn__tentez{
+        font-size: 20px;
+    }
+
+    /*à propos*/
+   .name{
+       font-size: 20px;
+   }
+
+   .job{
+       font-size: 15px;
+   }
+
+   .desc{
+       font-size: 20px;
+   }
+
+  .element03{
+      position: absolute;
+      top: 70%;
+  }
+  
+}
+
+/*Responsive du body de la page d'accueil + header pour les appareils type tablette/mobile*/
+@media screen and (max-width: 1010px) {
+    .menu{
+        visibility: visible;
+    }
+    .nav__links, .link__signup{
+        visibility: hidden;
+    }
+
+    .header__menu-btn {
+    visibility: visible ;
+    z-index: 1;
+    }
+
+    .header__menu-btn{
+        position: absolute;
+        top: 65px;
+        right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu{
+        z-index: 1;
+        background: linear-gradient(0deg, var(--baby-blue), 50%, var(--soft-beige)) ;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100vw);
+        transition: all 1s;
+        z-index: 1;
+    }
+    
+    .menu-open .menu{ 
+        transform: translateX(0);
+    }
+    
+    .menu ul{
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    
+    .menu li{
+        margin-bottom: 40px;
+        padding: 10px 40px;
+        border: 2px solid var(--white);
+        border-radius: 50px;
+        overflow: hidden;
+    }
+
+    .logo__blumee__menu{
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        width: 50px;
+    }
+
+    .menu-open, .menu-open body{
+        overflow: hidden;
+    }
+
+    .close__menu{
+        position: absolute;
+        z-index: 3;
+        width: 30px;
+        top: 60px;
+        right: 25px
+    }
+
+    .nav__links__menu{
+        margin-top: 125px;
+    }
+}
+
+/*Responsive pour la partie fonctionnalités avec le mockup qui disparait*/
+@media screen and (max-width: 921px){
+
+    .mockup, .mockup__center{
+        position: absolute;
+        visibility: hidden;
+    }
+    .feature__01{
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+}
+
+/*Responsive pour la partie fonctionnalités avec la grille verticale*/
+@media screen and (max-width: 720px){
+    .section__cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .bloc__cards__00{
+        margin-bottom: 200px;
+    }
+    
+    .grid__elements{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .grid__text__left{
+        text-align: center;
+    }
+
+    .grid__elements__responsive{
+        display: flex;
+        flex-direction: column;
+      }
+  
+    .grid__text__right{
+        text-align: center;
+      }
+
+      .bloc__align{
+        margin-left: 20px
+      }
+/*Responsive à cause des blocs de déco, j'ai pas réussi à trouver mieux comme solution..*/
+      .under__section__00{
+          padding-left: 100px;
+      }
+}
+
+/*Responsive à cause des blocs de déco, j'ai pas réussi à trouver mieux comme solution..*/
+@media screen and (max-width: 590px){
+    .under__section__00{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .under__section__00{
+        padding-left: 0;
+    }
+}
+
+/*spéciale pour le about*/
+@media screen and (max-width: 900px) {
+    .section__about{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title__blumee{
+        font-size: 80px;
+    }
+
+    .tagline{
+        font-size: 22px;
+        padding-left: 6px;
+    }
+
+    .title__features{
+        font-size: 30px;
+    }
+
+    .bloc__align{
+        padding-top: 0px;
+    }
+    
+    .card__form{
+
+        box-shadow: none;
+    }
+   
+    .text__quote{
+        font-size: 30px;
+    }
+}
+
+/*Responsive spéciale header*/
+@media screen and (max-width: 625px){
+    .header__index{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .bloc__cards__00, .bloc__cards__01{
+        width: 280px;
+    }
+
+    .bloc__little__card__00, .bloc__little__card__01{
+        margin: 0 55px;
+    }
+}
+
+/*Responsive de la ligne de séparation*/
+@media screen and (max-width: 568px) {
+    .sep__line{
+        width: 250px;
+    }
+}
+
+/*Responsive pour la carte premium en dessous de 480 px*/
+@media screen and (max-width: 420px ){
+    .card__premium{
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height:400px;
+        background-color: var(--white);
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgb(153, 151, 151);
+    }
+    .icon__check{
+        width: 20px;
+    }
+
+    .text__premium{
+       font-size: 15px;
+       width: 200px;
+    }
+
+    .card__check{
+        padding: 15px 50px;
+    }
+
+    .btn__card{
+        padding-top: 32px;
+    }
+
+    #cercle {
+        width: 400px;
+        height: 400px;
+        border-radius: 250px;
+        background: linear-gradient(180deg, var(--baby-blue), 60%, var(--soft-beige)) ;  
+    }
+}
+
+/*Responsive de la page inscription en dessous de 800px */
+@media screen and (max-width: 800px){
+    .section__00__signup{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    .align__signup{
+        margin-top: 50px;
+    }
+
+    .btn__signup{
+        display: relative;
+        z-index: 999;
+        margin-top: 0px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .header__signup{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .nav__signup{
+        display: grid;
+        grid-column-start: 3;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .section__00__signup{
+        padding-top: 50px;
+       display: grid;
+       justify-content: center;
+    } 
+
+   .title__blumee__signup{
+       font-size: 70px;
+   }
+
+   .tagline__signup{
+     visibility: hidden;
+   }
+
+   .align__signup{
+       display: block;
+       margin-top: 0;  
+     }
+     
+   .bloc__home__signup{
+    display: grid;
+    justify-items: center;
+    
+}
+
+}
+
+@media screen and (max-width: 355px) {
+    .nav__links__signup{
+        font-size: 13.2px;
+    }
+    
+}
+
+
+@media screen and (max-width: 400px){
+    .title__blumee__signup{
+        font-size: 70px;
+        padding-left: 0px;
+    }
+    
+ 
+    .tagline__signup{
+        font-size: 30px;
+        padding-left: 0px;
+    }
+ 
+    .align__signup{
+        display: block;
+    }
+ }
+
+/*Responsive de la page connexion*/
+
+@media screen and (max-width: 800px){
+    .section__00__signin{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .header__signin{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .nav__signin{
+        display: grid;
+        grid-column-start: 3;
+    }
+
+    .element03, .element02{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .bloc__home__signin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__00__signin{
+        display: grid;
+        justify-content: center;
+    }
+    .title__blumee__signin{
+        font-size: 70px;
+    }
+ 
+    .tagline__signin{
+        visibility: hidden;
+    }
+ 
+    .align__signin{
+        display: block;
+    }
+   
+ }
+
+ @media screen and (max-width: 400px){
+    .section__00__signin{
+        display: grid;
+        justify-content: center;
+        
+    }
+
+    .bloc__home__signin{
+        text-align: center;
+    }
+
+    .title__blumee__signin{
+        padding-left: 0;
+    }
+ 
+    .tagline__signin{
+       visibility: hidden;
+    }
+ 
+    .align__signin{
+        display: block;
+    }
+    
+
+
+
+    .nav__signin a{
+        font-size: 13.2px;
+    }
+ }
