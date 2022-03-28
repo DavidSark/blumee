@@ -3,6 +3,10 @@
   box-sizing: content-box;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 
 /*Couleur de fond dégradé du body*/
 /*body:before {

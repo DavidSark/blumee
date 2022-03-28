@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
-    
+
     <title>Blumee - Accueil</title>
 </head>
 
@@ -14,48 +14,60 @@
 
     <!--Code du menu-->
 
-    <header class="header">
-        <a class="logo__blumee" href="index.html"><img class="logo__blumee" src="assets/icons/logo_transparent.svg" alt="logo Blumee"></a>
+    <header class="header__signup">
+        <a class="logo__blumee" href="index.html"><img class="logo__blumee" src="assets/icons/logo_transparent.svg"
+                alt="logo Blumee"></a>
 
-        <nav>
-            <ul class="nav__links">
+        <nav class="nav__signup">
+            <ul class="nav__links__signup">
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="index.html#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="#">À propos</a>
+                    <a href="index.html#about__us">À propos</a>
                 </li>
-                <li>
-                    <a href="#">Connexion</a>
-                </li>
+            
             </ul>
         </nav>
-        <a class="link__signup signup__button" href="#">Inscription</a>
+
+        <!--Menu téléphone :( -->
+
+
     </header>
+    <main>
+        <div class="section__00__signup">
+            <div class="under__section__00__signup">
+                <div class="bloc__home__signup">
+                    <h1 class="title__blumee__signup">Blumee</h1>
+                    <h2 class="tagline__signup"> believe in being better !</h2>
+                </div>
 
-    <div class="section__00__signup">
-        <div class="under__section__00__signup">
-            <div class="bloc__home__signup">
-                <h1 class="title__blumee__signup">Blumee.</h1>
-                <h2 class="tagline__signup"> believe in being better !</h2>
+                <div class="bloc__element">
+                    <div class="element03">
+                        <img src="assets/icons/deco_element03.svg" alt="éléments décoratifs">
+                    </div>
+                    <div class="element02">
+                        <img src="assets/icons/deco_element02.svg" alt="éléments décoratifs">
+                    </div>
+                </div>
             </div>
-             
-        </div>
 
-        <div class="section__signup__right">
-            <div>
-                 <input class="input__signup" id="pseudonyme" type="text" name="pseudonyme" placeholder="Pseudonyme*">
-                <input class="input__signup" id="emailAdress" type="email" name="email" placeholder="E-mail*">
-                <input class="input__signup" id="password" type="password" name="password" placeholder="Mot de passe">
-                <p class="account">Vous avez un compte ? <a href="#"><span class="bold">Se connecter</span></p></a>
-                <p class="accept">En vous inscrivant, vous acceptez nos <a href="#"><span class="bold">Conditions d’utilisation & Politiques priviées</span>.</p></a>
-            </div>
+            <div class="section__signup__right">
+                <div class="align__signup">
+                    <input class="input__signup" id="pseudonyme" type="text" name="pseudonyme"
+                        placeholder="Pseudonyme*">
+                    <input class="input__signup" id="emailAdress" type="email" name="email" placeholder="E-mail*">
+                    <input class="input__signup" id="password" type="password" name="password"
+                        placeholder="Mot de passe">
+                    <p class="account">Vous avez un compte ? <a href="signin.html"><span class="bold">Se
+                                connecter</span></p></a>
+                    <p class="accept">En vous inscrivant, vous acceptez nos <a href="404.html"><span
+                                class="bold">Conditions d’utilisation & Politiques privées.</span>.</p></a>
+                </div>
                 <button class="btn__signup">S'inscrire</button>
+            </div>
         </div>
-    </div>
-
-
-
+    </main>
     <footer class="footer__sign">
         <div class="center__footer">
             <img class="logo__footer" src="assets/icons/logo_transparent.svg" alt="Logo Blumee">
@@ -66,12 +78,12 @@
             </div>
 
             <div class="footer__img">
-                <img class="footer__tiktok" src="assets/icons/tiktok.svg" alt="Icone Tiktok">
-                <img class="footer__facebook" src="assets/icons/facebook.svg" alt="Icone Facebook">
-                <img class="footer__instagram" src="assets/icons/instagram.svg" alt="Icone Instagram">
+                <a href="https://www.tiktok.com/fr/" target="_blank" ><img class="footer__tiktok" src="assets/icons/tiktok.svg" alt="Icone Tiktok"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="footer__facebook" src="assets/icons/facebook.svg" alt="Icone Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="footer__instagram" src="assets/icons/instagram.svg" alt="Icone Instagram"></a>
             </div>
 
-            <p class="legal"> © Blumee. All <span class="legal__bold"> rights reserved - C.G.U</span></p>
+            <p class="legal"> © Blumee. All <span class="legal__bold"> rights reserved - <a href="404.html">C.G.U</a></span></p>
         </div>
     </footer>
 </body>

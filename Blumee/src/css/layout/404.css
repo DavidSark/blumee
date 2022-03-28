@@ -17,6 +17,7 @@
 
 .number_404, .whoops, .not_found, .home_button{
     color: var(--white);
+    text-transform: uppercase;
 }
 
 .error_404{
