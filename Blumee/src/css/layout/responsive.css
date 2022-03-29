@@ -1,6 +1,12 @@
 /*Responsive de l'accueil si la taille d'écran du navigateur > 1440px + quelques  éléments de la page*/
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1550px ) {
+    .section__00{
+        padding-bottom: 0px;
+        border: 2px solid red;
+        padding-bottom: 400px;
+    }
+
     .section__00__signup{
         padding-bottom: 400px;
     }
@@ -8,9 +14,12 @@
     .section__00__signin{
         padding-bottom: 500px;
     }
+
     .under__section__00{
-        padding-bottom: 420px;
+        display: grid;
+        padding-left: 0;
     }
+
     .link__signup{
         font-size: 25px;
     }
@@ -28,7 +37,17 @@
     }
 
     .link__signin{
-        font-size: 25px;
+        font-size: 45px;
+    }
+
+    .title__blumee{
+        font-size: 200px;
+    }
+
+    .tagline{
+        font-size: 60px;
+        padding-left: 35px;
+        width: 650px;
     }
 
     /*Fonctionnalités*/
@@ -62,8 +81,46 @@
       position: absolute;
       top: 70%;
   }
-  
+
+  /*Mockup de l'accueil*/
+
+.mockup__home{
+    width: 500px;
 }
+
+.mockup__home2{
+    width: 500px;
+}
+
+.bloc__mockup__gauche {
+    position: absolute;
+    z-index: 2;
+    right: 300px;
+    top: 370px;
+}
+
+.bloc__mockup__droit {
+    position: absolute;
+    z-index: 1;
+    right: 170px;
+    top: 260px;
+}
+}
+
+/*Responsive 4K on sait jamais*/
+@media screen and (min-width: 2001px ) {
+    .section__00{
+        border: 2px solid green;
+        display: flex;
+    }
+
+    .under__section__00{
+        margin-left: 400px;
+        margin-right: 5px;
+    }
+}
+
+
 
 /*Responsive du body de la page d'accueil + header pour les appareils type tablette/mobile*/
 @media screen and (max-width: 1010px) {
@@ -89,8 +146,7 @@
     }
     
     .menu{
-        z-index: 1;
-        background: linear-gradient(0deg, var(--baby-blue), 50%, var(--soft-beige)) ;
+        background: linear-gradient(0deg, var(--baby-blue), 50%, var(--blue)) ;
         position: fixed;
         top: 0;
         left: 0;
@@ -101,7 +157,7 @@
         align-items: center;
         transform: translateX(100vw);
         transition: all 1s;
-        z-index: 1;
+        z-index: 99;
     }
     
     .menu-open .menu{ 
@@ -474,3 +530,79 @@
         font-size: 13.2px;
     }
  }
+
+/*petit espacement entre la section fonctionnalité et la carte premium*/
+ @media screen and (min-width: 1335px){
+     .section__03{
+         padding-top: 50px;
+     }
+ }
+
+ /*Responsive des mockups de l'accueil*/
+
+@media screen and (max-width: 1270px){
+
+    .mockup__home{
+        width: 300px;
+    }
+    
+    .mockup__home2{
+        width: 300px;
+    }
+    
+    .bloc__mockup__gauche {
+        position: absolute;
+        z-index: 2;
+        right: 150px;
+        top: 220px;
+    }
+    
+    .bloc__mockup__droit {
+        position: absolute;
+        z-index: 1;
+        right: 30px;
+        top: 160px;
+    }
+
+    .tagline{
+        width: 650px;
+    }
+    
+}
+
+@media screen and (max-width: 1090px) {
+    .mockup__home, .mockup__home2{
+        visibility: hidden;
+    }
+
+    .link__signin{
+        margin-left: 190px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .under__section__00{
+        padding-left: 0px;
+    }
+}
+/*Bouton s'inscrire milieu*/
+@media screen and (max-width: 475px) {
+    .link__signin{
+        margin-left: 135px;
+    }
+}
+
+/*Title téléphone S 320px*/
+@media screen and (max-width: 320px) {
+    .title__blumee{
+        font-size: 45px;
+        padding-left: 34px;
+    } 
+    .tagline{
+        padding-right: 10px;
+    }
+
+    .under__section__00{
+        padding-top: 0px;
+    }
+}

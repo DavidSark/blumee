@@ -6,7 +6,7 @@
 .section__00__signin{
     padding-top: 80px;
     padding-bottom: 260px;
-    background: linear-gradient(90deg, var(--baby-blue), 50%, var(--soft-beige)) ;
+    background: linear-gradient(90deg, var(--baby-blue), 50%, var(--blue)) ;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -33,9 +33,9 @@
     margin-top: 30px;
     margin-left: 80px;
     margin-right: 80px;
-    color: var(--white);
+    color: var(--blue);
     padding: 9px 25px;
-    background-color: var(--baby-blue);
+    background-color: var(--white);
     opacity: 1;
     border: none;
     border-radius: 50px;
@@ -43,8 +43,9 @@
 }
 
 .signin__btn:hover{
-    background-color: var(--white);
-    color: var(--baby-blue);
+    background-color: transparent;
+    border: 1px solid white;
+    color: var(--white);
     font-weight: 600;
 }
 

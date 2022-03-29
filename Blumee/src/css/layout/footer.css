@@ -64,3 +64,13 @@ footer{
 .footer__facebook{
     margin: 0 30px;
 }
+
+
+.bloc__sep__line__footer {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
