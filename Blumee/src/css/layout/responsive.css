@@ -3,7 +3,6 @@
 @media screen and (min-width: 1550px ) {
     .section__00{
         padding-bottom: 0px;
-        border: 2px solid red;
         padding-bottom: 400px;
     }
 
@@ -110,7 +109,6 @@
 /*Responsive 4K on sait jamais*/
 @media screen and (min-width: 2001px ) {
     .section__00{
-        border: 2px solid green;
         display: flex;
     }
 
